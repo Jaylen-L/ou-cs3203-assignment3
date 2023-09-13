@@ -24,7 +24,7 @@ def reverseArray(array):
 
 
 def main():
-    numbers = [1, 2, 3, 4, 5]
+    numbers = [1, 2, 3, 4, 5] # Hello :) this is for branch "Part10"
 
     print("The sum is:")
     print(sumArray(numbers))
