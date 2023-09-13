@@ -1,13 +1,8 @@
-numbers = [1, 2, 3, 4]
-
 def sumArray(array):
     result = 0
     for x in array:
         result += x
     return result
-
-print("The sum is:")
-print(sumArray(numbers))
 
 def productArray(array):
     result = 0
@@ -17,5 +12,14 @@ def productArray(array):
         result *= x
     return result
 
-print("The product is:")
-print(productArray(numbers))
+def main():
+    numbers = [1,2,3,4]
+
+    print("The sum is:")
+    print(sumArray(numbers))
+
+    print("The product is:")
+    print(productArray(numbers))
+
+if __name__ == "__main__":
+    main()
